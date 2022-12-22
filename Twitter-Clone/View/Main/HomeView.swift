@@ -20,7 +20,7 @@ struct HomeView: View {
                     FeedView()
                         .onTapGesture {
                             self.selectedIndex = 0
-                        }
+                        }.navigationBarHidden(true)
                         .tabItem {
                             if(selectedIndex==0)
                             {
@@ -34,7 +34,7 @@ struct HomeView: View {
                     SearchView()
                         .onTapGesture {
                             self.selectedIndex = 1
-                        }
+                        }.navigationBarHidden(true)
                         .tabItem {
                             if(selectedIndex==1)
                             {
@@ -48,7 +48,7 @@ struct HomeView: View {
                     NotificationsView()
                         .onTapGesture {
                             self.selectedIndex = 2
-                        }
+                        }.navigationBarHidden(true)
                         .tabItem {
                             if(selectedIndex==2)
                             {
@@ -62,7 +62,7 @@ struct HomeView: View {
                     MessagesView()
                         .onTapGesture {
                             self.selectedIndex = 3
-                        }
+                        }.navigationBarHidden(true)
                         .tabItem {
                             if(selectedIndex==3)
                             {
