@@ -30,6 +30,9 @@
 		9D3D00F5295328B50001732F /* SearchUserCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D00F4295328B50001732F /* SearchUserCellView.swift */; };
 		9D3D00F729532B090001732F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D00F629532B090001732F /* Extensions.swift */; };
 		9D3D00F9295330160001732F /* NotificationCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D00F8295330160001732F /* NotificationCellView.swift */; };
+		9D8DDB20295AFE4300E61A39 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8DDB1F295AFE4300E61A39 /* ProfileView.swift */; };
+		9D8DDB22295B007C00E61A39 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8DDB21295B007C00E61A39 /* BlurView.swift */; };
+		9D8DDB24295B0A6800E61A39 /* ProfileTabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8DDB23295B0A6800E61A39 /* ProfileTabButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +60,9 @@
 		9D3D00F4295328B50001732F /* SearchUserCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserCellView.swift; sourceTree = "<group>"; };
 		9D3D00F629532B090001732F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		9D3D00F8295330160001732F /* NotificationCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCellView.swift; sourceTree = "<group>"; };
+		9D8DDB1F295AFE4300E61A39 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		9D8DDB21295B007C00E61A39 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		9D8DDB23295B0A6800E61A39 /* ProfileTabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +156,8 @@
 		9D3D00D72952FDD90001732F /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				9D8DDB1F295AFE4300E61A39 /* ProfileView.swift */,
+				9D8DDB21295B007C00E61A39 /* BlurView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -169,6 +177,7 @@
 				9D3D00F2295324A20001732F /* SearchBarView.swift */,
 				9D377A7D295467B80041F760 /* FollowView.swift */,
 				9D377A7F29546BAB0041F760 /* SideMenuItemsView.swift */,
+				9D8DDB23295B0A6800E61A39 /* ProfileTabButton.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -300,8 +309,10 @@
 			files = (
 				9D377A76295458B90041F760 /* MessageCellView.swift in Sources */,
 				9D377A7C2954669A0041F760 /* SlideMenuView.swift in Sources */,
+				9D8DDB22295B007C00E61A39 /* BlurView.swift in Sources */,
 				9D377A7A29545C690041F760 /* MainView.swift in Sources */,
 				9D377A7829545AA80041F760 /* TopBarView.swift in Sources */,
+				9D8DDB24295B0A6800E61A39 /* ProfileTabButton.swift in Sources */,
 				9D3D00EF2953144E0001732F /* TweetCellView.swift in Sources */,
 				9D3D00EB29530F770001732F /* CreateTweetView.swift in Sources */,
 				9D3D00E5295303930001732F /* SearchView.swift in Sources */,
@@ -318,6 +329,7 @@
 				9D3D00F1295323AD0001732F /* SearchCellView.swift in Sources */,
 				9D3D00C62952FD960001732F /* Twitter_CloneApp.swift in Sources */,
 				9D3D00E72953039F0001732F /* NotificationsView.swift in Sources */,
+				9D8DDB20295AFE4300E61A39 /* ProfileView.swift in Sources */,
 				9D3D00F729532B090001732F /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
