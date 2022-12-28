@@ -23,6 +23,8 @@ struct MainView: View {
                             .padding(.bottom,3)
                         HomeView()
                     }
+                    .offset(x:x+width)
+                    
                     SlideMenuView()
                         .shadow(color: Color.black.opacity(x != 0 ? 0.1 : 0),radius:5,x:5,y:0)
                         .offset(x:x)
