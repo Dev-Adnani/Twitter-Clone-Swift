@@ -38,7 +38,7 @@ struct ProfileView: View {
                            Image("banner")
                                .resizable()
                                .aspectRatio(contentMode: .fill)
-                               .frame(width: UIScreen.main.bounds.width,height: minY > 0 ? 180 + minY  : 180 , alignment: .center)
+                               .frame(width: getRect().width,height: minY > 0 ? 180 + minY  : 180 , alignment: .center)
                                .cornerRadius(0)
                            BlurView()
                                .opacity(blurOpacity())
@@ -107,7 +107,7 @@ struct ProfileView: View {
                         Text("Competitive Coder, Data Structure And Algorithms , I Love Building Apps/Backend Infra Structure , DAIICT'24 ")
                         
                         HStack(spacing: 5, content: {
-                            Text("13")
+                            Text("130K")
                                 .fontWeight(.semibold)
                                 .foregroundColor(.primary)
                             
@@ -163,9 +163,25 @@ struct ProfileView: View {
                         }.frame(width: 0,height: 0),alignment: .top)
                         .zIndex(1)
                     
-                }
+                    VStack(spacing: 18, content: {
+                        TweetCellView(tweet: "Hey There I Am On Twitter",tweetImage: "logo")
+                        
+                        Divider()
+                        
+                        ForEach(0..<20,id: \.self)
+                        {
+                            _ in
+                            TweetCellView(tweet: "Hey There I Am On Twitter,ey There I Am On Twitter,ey There I Am On Twitter")
+                        }
+                    })
+                    .padding(.top)
+                    .zIndex(0)
+
+                    
+                }.padding(.horizontal)
+                    .zIndex(-offset > 80 ? 0 : 1)
             }
-        }
+        }.ignoresSafeArea(.all,edges: .top)
     }
     
     func blurOpacity() -> Double

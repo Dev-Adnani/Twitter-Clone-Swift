@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 extension UIApplication
 {
@@ -15,3 +16,11 @@ extension UIApplication
     }
 }
  
+
+extension View
+{
+    func getRect() -> CGRect
+    {
+        return UIScreen.main.bounds
+    }
+}
