@@ -31,6 +31,9 @@
 		9D3D00F729532B090001732F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D00F629532B090001732F /* Extensions.swift */; };
 		9D3D00F9295330160001732F /* NotificationCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D00F8295330160001732F /* NotificationCellView.swift */; };
 		9D3E848E295C35AA00504177 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3E848D295C35AA00504177 /* WelcomeView.swift */; };
+		9D3E8490295C3C7800504177 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3E848F295C3C7800504177 /* RegisterView.swift */; };
+		9D3E8492295C3D8D00504177 /* CustomAuthTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3E8491295C3D8D00504177 /* CustomAuthTextView.swift */; };
+		9D3E8494295C618200504177 /* SecureTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3E8493295C618200504177 /* SecureTextFieldView.swift */; };
 		9D8DDB20295AFE4300E61A39 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8DDB1F295AFE4300E61A39 /* ProfileView.swift */; };
 		9D8DDB22295B007C00E61A39 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8DDB21295B007C00E61A39 /* BlurView.swift */; };
 		9D8DDB24295B0A6800E61A39 /* ProfileTabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8DDB23295B0A6800E61A39 /* ProfileTabButton.swift */; };
@@ -62,6 +65,9 @@
 		9D3D00F629532B090001732F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		9D3D00F8295330160001732F /* NotificationCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCellView.swift; sourceTree = "<group>"; };
 		9D3E848D295C35AA00504177 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		9D3E848F295C3C7800504177 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		9D3E8491295C3D8D00504177 /* CustomAuthTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAuthTextView.swift; sourceTree = "<group>"; };
+		9D3E8493295C618200504177 /* SecureTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureTextFieldView.swift; sourceTree = "<group>"; };
 		9D8DDB1F295AFE4300E61A39 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		9D8DDB21295B007C00E61A39 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		9D8DDB23295B0A6800E61A39 /* ProfileTabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabButton.swift; sourceTree = "<group>"; };
@@ -180,6 +186,8 @@
 				9D377A7D295467B80041F760 /* FollowView.swift */,
 				9D377A7F29546BAB0041F760 /* SideMenuItemsView.swift */,
 				9D8DDB23295B0A6800E61A39 /* ProfileTabButton.swift */,
+				9D3E8491295C3D8D00504177 /* CustomAuthTextView.swift */,
+				9D3E8493295C618200504177 /* SecureTextFieldView.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -188,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				9D3E848D295C35AA00504177 /* WelcomeView.swift */,
+				9D3E848F295C3C7800504177 /* RegisterView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -320,17 +329,20 @@
 				9D3D00EB29530F770001732F /* CreateTweetView.swift in Sources */,
 				9D3D00E5295303930001732F /* SearchView.swift in Sources */,
 				9D3D00E3295303810001732F /* FeedView.swift in Sources */,
+				9D3E8492295C3D8D00504177 /* CustomAuthTextView.swift in Sources */,
 				9D3D00F3295324A20001732F /* SearchBarView.swift in Sources */,
 				9D3D00F9295330160001732F /* NotificationCellView.swift in Sources */,
 				9D377A8029546BAB0041F760 /* SideMenuItemsView.swift in Sources */,
 				9D3D00E1295300000001732F /* HomeView.swift in Sources */,
 				9D3D00C82952FD960001732F /* ContentView.swift in Sources */,
+				9D3E8490295C3C7800504177 /* RegisterView.swift in Sources */,
 				9D3D00E9295303AD0001732F /* MessagesView.swift in Sources */,
 				9D377A7E295467B80041F760 /* FollowView.swift in Sources */,
 				9D3D00ED2953113B0001732F /* MultilineTextField.swift in Sources */,
 				9D3D00F5295328B50001732F /* SearchUserCellView.swift in Sources */,
 				9D3D00F1295323AD0001732F /* SearchCellView.swift in Sources */,
 				9D3E848E295C35AA00504177 /* WelcomeView.swift in Sources */,
+				9D3E8494295C618200504177 /* SecureTextFieldView.swift in Sources */,
 				9D3D00C62952FD960001732F /* Twitter_CloneApp.swift in Sources */,
 				9D3D00E72953039F0001732F /* NotificationsView.swift in Sources */,
 				9D8DDB20295AFE4300E61A39 /* ProfileView.swift in Sources */,
