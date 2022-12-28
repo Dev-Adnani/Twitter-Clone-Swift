@@ -34,6 +34,7 @@
 		9D3E8490295C3C7800504177 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3E848F295C3C7800504177 /* RegisterView.swift */; };
 		9D3E8492295C3D8D00504177 /* CustomAuthTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3E8491295C3D8D00504177 /* CustomAuthTextView.swift */; };
 		9D3E8494295C618200504177 /* SecureTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3E8493295C618200504177 /* SecureTextFieldView.swift */; };
+		9D3E8496295C63B700504177 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3E8495295C63B700504177 /* LoginView.swift */; };
 		9D8DDB20295AFE4300E61A39 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8DDB1F295AFE4300E61A39 /* ProfileView.swift */; };
 		9D8DDB22295B007C00E61A39 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8DDB21295B007C00E61A39 /* BlurView.swift */; };
 		9D8DDB24295B0A6800E61A39 /* ProfileTabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8DDB23295B0A6800E61A39 /* ProfileTabButton.swift */; };
@@ -68,6 +69,7 @@
 		9D3E848F295C3C7800504177 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		9D3E8491295C3D8D00504177 /* CustomAuthTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAuthTextView.swift; sourceTree = "<group>"; };
 		9D3E8493295C618200504177 /* SecureTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureTextFieldView.swift; sourceTree = "<group>"; };
+		9D3E8495295C63B700504177 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		9D8DDB1F295AFE4300E61A39 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		9D8DDB21295B007C00E61A39 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		9D8DDB23295B0A6800E61A39 /* ProfileTabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabButton.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 			children = (
 				9D3E848D295C35AA00504177 /* WelcomeView.swift */,
 				9D3E848F295C3C7800504177 /* RegisterView.swift */,
+				9D3E8495295C63B700504177 /* LoginView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D377A76295458B90041F760 /* MessageCellView.swift in Sources */,
+				9D3E8496295C63B700504177 /* LoginView.swift in Sources */,
 				9D377A7C2954669A0041F760 /* SlideMenuView.swift in Sources */,
 				9D8DDB22295B007C00E61A39 /* BlurView.swift in Sources */,
 				9D377A7A29545C690041F760 /* MainView.swift in Sources */,
